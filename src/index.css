@@ -78,12 +78,15 @@ form textarea {
 }
 
 form button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #f5ba13;
   position: absolute;
   right: 18px;
   bottom: -18px;
-  height: 30%;
-  width: 12%;
+  height: 30px;
+  width: 30px;
   border-radius: 50%;
   border: none;
   font-size: 2rem;
