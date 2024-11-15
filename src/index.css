@@ -53,7 +53,7 @@ header h2{
   width: 30%;
   border-radius: 10px;
   background: #fff;
-  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.399);
+  box-shadow: 0 2px 5px #ccc;
 }
 
 form{
@@ -92,4 +92,66 @@ form button{
   font-size: 2rem;
   font-weight: 100;
   color: #fff;
+}
+
+.note-box{
+  min-height: 30%;
+  width: 20%;
+  border-radius: 20px;
+  background: #fff ;
+  position: relative;
+  box-shadow: 0 2px 5px #ccc;
+}
+
+.note-box h2{
+  padding: 10px;
+}
+
+.note-box p{
+  padding-left: 10px;
+  color: #787676;
+}
+
+.note-box .delete-box{
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  position: absolute;
+  box-shadow: 0 2px 5px #ccc;
+  right: 18px;
+  bottom: -15px;
+  background: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.delete-box img{
+  height: 70%;
+  width: 70%;
+  transform: all ease 3s;
+}
+
+.note-box img:hover{
+  height: 85%;
+  width: 85%;
+  animation: rotate 3s ease;
+}
+
+@keyframes rotate {
+  0%{
+    transform: rotate(0deg);
+  }
+
+  25%{
+    transform: rotate(30deg);
+  }
+
+  75%{
+    transform: rotate(-30deg);
+  }
+
+  100%{
+    transform: rotate(0deg);
+  }
 }
