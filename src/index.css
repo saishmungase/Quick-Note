@@ -94,9 +94,22 @@ form button{
   color: #fff;
 }
 
+
+.note-area {
+  height: auto;
+  width: 100%;
+  margin-top: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+
 .note-box{
-  min-height: 30%;
-  width: 20%;
+  min-height: 100px;
+  width: 30%;
   border-radius: 20px;
   background: #fff ;
   position: relative;
