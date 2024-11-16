@@ -93,6 +93,14 @@ form button{
   color: #fff;
 }
 
+.representation{
+  position: absolute;
+  right: 50px;
+}
+
+.shown-value{
+  color: #787676;
+}
 
 .note-area {
   height: auto;
@@ -122,6 +130,21 @@ form button{
 .note-box p{
   padding-left: 10px;
   color: #787676;
+  padding: 10px;
+}
+
+.tag{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  top: 5px;
+  right: 15px;
+}
+
+.tag label{
+    color: #787676;
 }
 
 .note-box .delete-box{
