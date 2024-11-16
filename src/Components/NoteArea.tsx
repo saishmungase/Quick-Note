@@ -5,15 +5,18 @@ export default function NoteArea() {
         <div className='note-area'>
             {Object.entries(localStorage).map(([keys, value]) => {
                 const parsedValue = JSON.parse(value);
-                return (
-                    <Note 
-                        key={keys}
-                        title={keys}
-                        content={parsedValue.content}
-                        important={parsedValue.importance} 
-                        urgent={parsedValue.urgent} 
-                    />
-                );
+                if (parsedValue.status == false){
+                    return (
+                        <Note 
+                            key={keys}
+                            title={keys}
+                            content={parsedValue.content}
+                            important={parsedValue.importance} 
+                            urgent={parsedValue.urgent} 
+                            status={parsedValue.status}
+                        />
+                    );
+                }
             })}
         </div>
     );

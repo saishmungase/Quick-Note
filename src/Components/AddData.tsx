@@ -5,7 +5,8 @@ export default function AddData() {
         title: "",
         content: "",
         isImportant : false,
-        isUrgent : false
+        isUrgent : false,
+        isCompleted : false
     });
 
     function handleChange(event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) {
@@ -20,7 +21,8 @@ export default function AddData() {
         localStorage.setItem(card.title,JSON.stringify( {
             content : card.content,
             importance : card.isImportant,
-            urgent : card.isUrgent
+            urgent : card.isUrgent,
+            status : card.isCompleted
         }));
         console.log(
             `Saved: ${localStorage.getItem(card.title)}`
