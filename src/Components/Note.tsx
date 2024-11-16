@@ -31,6 +31,12 @@ export default function Note(props : propsType){
             </div>
         </div>
 
+
+        <div className="complete-box">
+            <div className="complete-click">
+                ✅
+            </div>
+        </div>
         <div className="delete-box">
             <img onClick={deleteNote} src={deleteIcon} alt={props.title}></img>
         </div>
