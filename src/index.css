@@ -147,6 +147,10 @@ form button{
     color: #787676;
 }
 
+.tag .urgent, .important{
+  font-size: 1.5rem;
+}
+
 .note-box .delete-box{
   height: 35px;
   width: 35px;
