@@ -13,12 +13,12 @@ Quick Note is a simple, fast, and user-friendly application for taking and manag
 - **Frontend**: React.js
 
 ## Setup Instructions
-1. Clone the repository:
+1. Clone the repository: <br>
 git clone https://github.com/saishmungase/Quick-Note.git
-2. Change Directory & Intall Dependencies
-cd ./Quick-Note
-npm i
-3. Run In local
-npm run dev
-4. Open Browser and Copy Paste URl
+2. Change Directory & Intall Dependencies<br>
+cd ./Quick-Note<br>
+npm i<br>
+3. Run In local<br>
+npm run dev<br>
+4. Open Browser and Copy Paste URl<br>
 http://localhost:5173/
