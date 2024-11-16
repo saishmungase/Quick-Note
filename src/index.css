@@ -21,7 +21,26 @@ html, body{
 .app{
   height: 100%;
   width: 100%;
+  position: relative;
 }
+
+.completed-task{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 100px;
+  position: absolute;
+  left: 16%;
+  top: 20%;
+  z-index: 10;
+  background-color: greenyellow;
+  border-radius: 10px;
+  font-weight: bolder;
+  color: #787676;
+}
+
+
 
 header{
   width: 100%;
@@ -40,6 +59,7 @@ header h2{
 }
 
 .add-data{
+  position: relative;
   height: 30%;
   width: 100%;
   display: flex;
@@ -103,6 +123,7 @@ form button{
 }
 
 .note-area {
+  position: relative;
   height: auto;
   width: 100%;
   margin-top: 5%;
@@ -112,7 +133,6 @@ form button{
   justify-content: center;
   align-items: center;
 }
-
 
 .note-box{
   min-height: 100px;
