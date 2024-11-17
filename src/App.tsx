@@ -17,7 +17,7 @@ function App() {
   return (
     <div className="app">
       <div className="completed-task" onClick={changeFlow} >
-        {!completed ? "Completed" : "All"}
+        {!completed ? "Completed" : "Tasks"}
       </div>
       <Header />
       <AddData />
